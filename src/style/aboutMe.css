@@ -1,5 +1,5 @@
 .aboutMe-container {
-    @apply flex flex-col md:flex-row items-center justify-center mt-16 md:mt-32 md:min-h-screen pb-24 md:pb-0;
+    @apply flex flex-col md:flex-row items-center justify-center pb-24 md:pb-0 min-h-screen;
 }
 
 .aboutMe-image {
