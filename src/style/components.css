@@ -7,5 +7,5 @@
 }
 
 .tabButton-underline {
-    @apply h-1 bg-primary-500 mt-2 mr-3;
+    @apply h-1 bg-primary mt-2 mr-3;
 }
