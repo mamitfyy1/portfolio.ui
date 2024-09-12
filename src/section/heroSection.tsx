@@ -36,6 +36,8 @@ export default function HeroSection() {
                     </p>
                 </div>
             </div>
+
+            <div className='heroSection-container-transition'/>
         </div>
     );
 }

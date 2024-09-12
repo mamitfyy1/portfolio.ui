@@ -25,3 +25,7 @@
 .heroSection-description {
     @apply text-white opacity-80 text-[16px] text-center leading-[20px] font-normal mt-8;
 }
+
+.heroSection-container-transition {
+    @apply absolute bottom-0 left-0 w-full h-[100px] bg-gradient-to-t from-[#121212] to-transparent;
+}
