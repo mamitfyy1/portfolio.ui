@@ -1,0 +1,27 @@
+.heroSection-out-container {
+    @apply flex justify-center h-[100dvh];
+}
+
+.heroSection-container-bg {
+    @apply absolute top-0 left-0 ;
+}
+
+.heroSection-container {
+    @apply flex flex-col items-center justify-center w-0 z-10;
+}
+
+.heroSection-inner-container {
+    @apply w-screen md:w-[720px] flex flex-col justify-center items-center px-4 h-0;
+}
+
+.heroSection-title {
+    @apply text-white text-[32px] md:text-[64px] text-center md:leading-[73px] font-extrabold flex flex-col;
+}
+
+.heroSection-title-highlight {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600;
+}
+
+.heroSection-description {
+    @apply text-white opacity-80 text-[16px] text-center leading-[20px] font-normal mt-8;
+}

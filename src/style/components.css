@@ -1,0 +1,11 @@
+.tabButton-label {
+    @apply text-[#ADB7BE] text-2xl transition duration-300 ease-in-out;
+}
+
+.tabButton-label#active {
+    @apply text-white;
+}
+
+.tabButton-underline {
+    @apply h-1 bg-primary-500 mt-2 mr-3;
+}

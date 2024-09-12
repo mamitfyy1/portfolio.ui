@@ -1,0 +1,19 @@
+.aboutMe-container {
+    @apply flex flex-col md:flex-row items-center justify-center mt-16 md:mt-32 md:min-h-screen;
+}
+
+.aboutMe-image {
+    @apply flex items-center justify-center w-full md:w-1/2;
+}
+
+.aboutMe-description-container {
+    @apply w-full md:w-1/2 flex flex-col items-start gap-4 px-4 md:px-0 mt-12 md:mt-0;
+}
+
+.aboutMe-title {
+    @apply text-white text-[24px] md:text-[36px] font-bold;
+}
+
+.aboutMe-tab-titles {
+    @apply flex gap-6;
+}
