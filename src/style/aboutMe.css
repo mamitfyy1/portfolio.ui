@@ -15,7 +15,7 @@
 }
 
 .aboutMe-tab-titles {
-    @apply flex flex-grow gap-6;
+    @apply flex flex-col md:flex-row gap-x-6 gap-y-3 items-start;
 }
 
 .aboutMe-tab-contents {
