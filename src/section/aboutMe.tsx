@@ -18,9 +18,9 @@ export default function AboutMe() {
     const [activeTab, setActiveTab] = useState<TabTitle>(tabs[0].title);
 
     return (
-        <div className='aboutMe-container'>
+        <div id='aboutMe' className='aboutMe-container'>
             <div className='aboutMe-image'>
-                <Image src='/asset/gif/aboutMe/sphere.gif' alt='Shapeless' width={960} height={540} unoptimized/>
+                <Image src='/asset/png/aboutMe/machintosh.png' alt='Machintosh' width={500} height={500} unoptimized/>
             </div>
 
             <div className='aboutMe-description-container'>

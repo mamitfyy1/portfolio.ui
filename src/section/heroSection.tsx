@@ -7,7 +7,7 @@ import {Typewriter} from "react-simple-typewriter";
 
 export default function HeroSection() {
     return (
-        <div className='heroSection-out-container'>
+        <div id='hero' className='heroSection-out-container'>
             <Spline
                 className='heroSection-container-bg'
                 scene="https://prod.spline.design/0r3jY6AvvCkDroFe/scene.splinecode"
