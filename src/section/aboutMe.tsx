@@ -9,7 +9,8 @@ import TabButton from "@miktatmert/component/TabButton";
 import TabContent from "@miktatmert/component/TabContent";
 
 const tabs = [
-    {title: 'Skills'},
+    {title: 'Front-end Skills'},
+    {title: 'Back-end Skills'},
     {title: 'Education'}
 ]
 type TabTitle = (typeof tabs[number]['title']);
@@ -32,13 +33,33 @@ export default function AboutMe() {
                     }
                 </div>
 
-                <TabContent value='Skills' index={activeTab}>
-                    <h1 className='aboutMe-title'>Skills</h1>
-                </TabContent>
+                <div className='aboutMe-tab-contents'>
+                    <TabContent value='Front-end Skills' index={activeTab}>
+                        <ul className='aboutMe-lists'>
+                            <li>HTML, CSS</li>
+                            <li>TypeScript, JavaScript</li>
+                            <li>React, Vite.js, Next.js</li>
+                            <li>Vue.js, Angular.js (basic knowledge)</li>
+                            <li>React Context, Redux</li>
+                        </ul>
+                    </TabContent>
 
-                <TabContent value='Education' index={activeTab}>
-                    <h1 className='aboutMe-title'>Education</h1>
-                </TabContent>
+                    <TabContent value='Back-end Skills' index={activeTab}>
+                        <ul className='aboutMe-lists'>
+                            <li>C#, TypeScript</li>
+                            <li>.Net Core, Node.js, Express.js</li>
+                            <li>SQL, MongoDB, Firebase</li>
+                            <li>Json Web Token</li>
+                            <li>Security Vulnerabilities</li>
+                        </ul>
+                    </TabContent>
+
+                    <TabContent value='Education' index={activeTab}>
+                        <ul className='aboutMe-lists'>
+                            <li>Computer Technologies - <a href='https://atauni.edu.tr' className='link'>Atatürk University</a></li>
+                        </ul>
+                    </TabContent>
+                </div>
             </div>
         </div>
     )

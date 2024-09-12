@@ -1,5 +1,5 @@
 .aboutMe-container {
-    @apply flex flex-col md:flex-row items-center justify-center mt-16 md:mt-32 md:min-h-screen;
+    @apply flex flex-col md:flex-row items-center justify-center mt-16 md:mt-32 md:min-h-screen pb-24 md:pb-0;
 }
 
 .aboutMe-image {
@@ -15,5 +15,13 @@
 }
 
 .aboutMe-tab-titles {
-    @apply flex gap-6;
+    @apply flex flex-grow gap-6;
+}
+
+.aboutMe-tab-contents {
+    @apply h-32 md:h-52 overflow-y-auto;
+}
+
+.aboutMe-lists {
+    @apply list-disc list-inside text-white;
 }
