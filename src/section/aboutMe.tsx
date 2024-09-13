@@ -21,7 +21,7 @@ export default function AboutMe() {
     return (
         <div id='aboutMe' className='aboutMe-container'>
             <div className='aboutMe-image'>
-                <Image src='/asset/png/aboutMe/machintosh.png' alt='Machintosh' width={500} height={500} unoptimized/>
+                <Image src='/asset/machintosh.gif' alt='Machintosh' width={500} height={500} unoptimized/>
             </div>
 
             <div className='aboutMe-description-container'>
@@ -56,7 +56,7 @@ export default function AboutMe() {
 
                     <TabContent value='Education' index={activeTab}>
                         <ul className='aboutMe-lists'>
-                            <li>Computer Technologies - <a href='https://atauni.edu.tr' className='link'>Atatürk University</a></li>
+                            <li>Computer Technologies - <a href='https://atauni.edu.tr' target='_blank' rel="noopener noreferrer" className='link'>Atatürk University</a></li>
                         </ul>
                     </TabContent>
                 </div>
