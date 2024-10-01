@@ -1,5 +1,5 @@
 .tabButton-label {
-    @apply text-[#ADB7BE] text-2xl transition duration-300 ease-in-out;
+    @apply text-[#ADB7BE] text-xl md:text-2xl transition duration-300 ease-in-out;
 }
 
 .tabButton-label#active {
