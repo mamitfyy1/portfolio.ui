@@ -1,9 +1,8 @@
 'use client';
 
 import '@miktatmert/style/heroSection.css';
+import {Icon} from "@iconify/react";
 import {Typewriter} from "react-simple-typewriter";
-
-import UnicornStudioEmbed from "@miktatmert/component/UnicornStudioEmbed";
 
 export default function HeroSection() {
     return (
@@ -14,9 +13,6 @@ export default function HeroSection() {
                 scene="https://prod.spline.design/0r3jY6AvvCkDroFe/scene.splinecode"
             />
             */}
-            <div className='heroSection-container-bg'>
-                <UnicornStudioEmbed projectId='lHlDvoJDIXCxxXVqTNOC'/>
-            </div>
 
             <div className='heroSection-container'>
                 <div className='heroSection-inner-container'>
@@ -42,7 +38,9 @@ export default function HeroSection() {
                 </div>
             </div>
 
-            <div className='heroSection-container-transition'/>
+            <a href='#aboutMe' className='heroSection-scroll-icon'>
+                <Icon icon='akar-icons:chevron-down'/>
+            </a>
         </div>
     )
         ;

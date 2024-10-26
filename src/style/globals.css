@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-        @apply antialiased bg-[#121212];
+    @apply antialiased scroll-smooth  bg-[#121212];
 }
 
 .link {

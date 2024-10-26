@@ -3,7 +3,7 @@
 }
 
 .heroSection-container-bg {
-    @apply absolute top-0 left-0 w-screen h-screen;
+    @apply fixed top-0 left-0 w-screen h-screen -z-10;
 }
 
 .heroSection-container {
@@ -26,6 +26,6 @@
     @apply text-white opacity-80 text-[16px] text-center leading-[20px] font-normal mt-8;
 }
 
-.heroSection-container-transition {
-    @apply absolute bottom-0 left-0 w-full h-[70px] bg-gradient-to-t from-[#121212] from-5% to-transparent to-95%;
+.heroSection-scroll-icon {
+    @apply absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[24px] h-[24px] mb-8 text-white animate-bounce;
 }
