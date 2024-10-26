@@ -1,17 +1,22 @@
 'use client';
 
 import '@miktatmert/style/heroSection.css';
-
-import Spline from '@splinetool/react-spline';
 import {Typewriter} from "react-simple-typewriter";
+
+import UnicornStudioEmbed from "@miktatmert/component/UnicornStudioEmbed";
 
 export default function HeroSection() {
     return (
         <div id='hero' className='heroSection-out-container'>
+            {/*
             <Spline
                 className='heroSection-container-bg'
                 scene="https://prod.spline.design/0r3jY6AvvCkDroFe/scene.splinecode"
             />
+            */}
+            <div className='heroSection-container-bg'>
+                <UnicornStudioEmbed projectId='lHlDvoJDIXCxxXVqTNOC'/>
+            </div>
 
             <div className='heroSection-container'>
                 <div className='heroSection-inner-container'>
@@ -39,5 +44,6 @@ export default function HeroSection() {
 
             <div className='heroSection-container-transition'/>
         </div>
-    );
+    )
+        ;
 }

@@ -10,8 +10,46 @@
     @apply text-white;
 }
 
-.project-card {
-    @apply w-96 h-56;
+.projects-description {
+    @apply text-white;
 }
 
+.projects-image {
+    @apply w-full h-full;
+}
 
+.projects-cards {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4;
+}
+
+.project-card {
+    @apply h-56 rounded-lg bg-cover bg-center;
+}
+
+.card {
+    @apply perspective-1000;
+}
+
+.card-inner {
+    @apply w-full h-full relative transition-transform duration-[999ms];
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    @apply absolute w-full h-full backface-hidden flex flex-col;
+}
+
+.card-front {
+    @apply text-white flex items-center border-2 border-secondary rounded-[10px] justify-center text-[24px] w-full h-full;
+    transform: rotateY(0deg);
+}
+
+.card-back {
+    @apply text-white flex items-center border-2 border-secondary rounded-[10px] justify-center text-[24px] w-full h-full bg-cover bg-center;
+    transform: rotateY(180deg);
+}

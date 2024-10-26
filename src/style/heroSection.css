@@ -3,7 +3,7 @@
 }
 
 .heroSection-container-bg {
-    @apply absolute top-0 left-0 ;
+    @apply absolute top-0 left-0 w-screen h-screen;
 }
 
 .heroSection-container {

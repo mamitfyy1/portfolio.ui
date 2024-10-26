@@ -11,7 +11,6 @@
   "dependencies": {
     "@splinetool/react-spline": "^4.0.0",
     "@splinetool/runtime": "^1.9.25",
-    "classnames": "^2.5.1",
     "framer-motion": "^11.5.4",
     "next": "14.2.10",
     "react": "^18",
@@ -25,6 +24,8 @@
     "@types/react-dom": "^18",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
+    "@xpd/tailwind-3dtransforms": "^1.0.3",
+    "classnames": "^2.5.1",
     "eslint": "^8.36.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-next": "14.2.6",

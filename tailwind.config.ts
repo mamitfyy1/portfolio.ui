@@ -2,9 +2,8 @@ import type {Config} from "tailwindcss";
 
 const config: Config = {
     content: [
-        "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-        "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-        "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+        './src/component/*.{ts,tsx}',
+        './src/section/*.{ts,tsx}',
     ],
     theme: {
         extend: {
@@ -12,10 +11,17 @@ const config: Config = {
                 background: "var(--background)",
                 foreground: "var(--foreground)",
                 primary: "#91ABAB",
-                secondary: "#414141",
+                secondary: "#414141"
             },
+            backgroundImage: {
+                o3layer: "url('/asset/backgroundImages/o3layer-bg.png')",
+                deutschexpress: "url('/asset/backgroundImages/deutschexpress-bg.png')",
+                octopusbridge: "url('/asset/backgroundImages/octopusbridge-bg.png')"
+            }
         },
     },
-    plugins: [],
+    plugins: [
+        require("@xpd/tailwind-3dtransforms")
+    ],
 };
 export default config;
