@@ -38,8 +38,8 @@ export default function HeroSection() {
                 </div>
             </div>
 
-            <a href='#aboutMe' className='heroSection-scroll-icon'>
-                <Icon icon='akar-icons:chevron-down'/>
+            <a href='/#aboutMe'>
+                <Icon icon='akar-icons:chevron-down' className='heroSection-scroll-icon'/>
             </a>
         </div>
     )
