@@ -1,5 +1,5 @@
 .projects-container {
-    @apply md:min-h-screen px-4;
+    @apply md:min-h-screen px-4 pb-12 md:pb-0;
 }
 
 .projects-general-title {
