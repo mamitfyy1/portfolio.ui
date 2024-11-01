@@ -17,7 +17,11 @@ const config: Config = {
                 o3layer: "url('/asset/backgroundImages/o3layer-bg.png')",
                 deutschexpress: "url('/asset/backgroundImages/deutschexpress-bg.png')",
                 octopusbridge: "url('/asset/backgroundImages/octopusbridge-bg.png')"
-            }
+            },
+            screens: {
+                '3xl': '1920px',
+                '4xl': '2560px',
+            },
         },
     },
     plugins: [
