@@ -1,66 +1,66 @@
 # Portfolio UI
 
-Bu proje, modern web teknolojileri kullanılarak geliştirilmiş kişisel bir portfolyo websitesidir.
+This project is a personal portfolio website developed using modern web technologies.
 
-## 🚀 Teknolojiler
+## 🚀 Technologies
 
-- **Next.js 14** - React tabanlı web framework
-- **React 18** - UI geliştirme kütüphanesi
-- **TypeScript** - Tip güvenli JavaScript
+- **Next.js 14** - React-based web framework
+- **React 18** - UI development library
+- **TypeScript** - Type-safe JavaScript
 - **Tailwind CSS** - Utility-first CSS framework
-- **Framer Motion** - Animasyon kütüphanesi
-- **Spline** - 3D tasarım entegrasyonu
-- **ESLint & Prettier** - Kod kalitesi ve formatlaması
+- **Framer Motion** - Animation library
+- **Spline** - 3D design integration
+- **ESLint & Prettier** - Code quality and formatting
 
-## 🛠️ Kurulum
+## 🛠️ Installation
 
-1. Projeyi klonlayın:
+1. Clone the project:
 ```bash
 git clone [repository-url]
 cd portfolio.ui
 ```
 
-2. Bağımlılıkları yükleyin:
+2. Install dependencies:
 ```bash
 pnpm install
 ```
 
-3. Geliştirme sunucusunu başlatın:
+3. Start the development server:
 ```bash
 pnpm dev
 ```
 
-4. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
 portfolio.ui/
 ├── src/
-│   ├── app/         # Next.js app router ve sayfa bileşenleri
-│   ├── component/   # Yeniden kullanılabilir UI bileşenleri
-│   ├── core/        # Temel yapılandırmalar ve yardımcı fonksiyonlar
-│   ├── section/     # Sayfa bölümleri
-│   └── style/       # Stil tanımlamaları
-├── public/          # Statik dosyalar
-└── ...yapılandırma dosyaları
+│   ├── app/         # Next.js app router and page components
+│   ├── component/   # Reusable UI components
+│   ├── core/        # Core configurations and helper functions
+│   ├── section/     # Page sections
+│   └── style/       # Style definitions
+├── public/          # Static files
+└── ...configuration files
 ```
 
-## 🔧 Komutlar
+## 🔧 Commands
 
-- `pnpm dev` - Geliştirme sunucusunu başlatır
-- `pnpm build` - Prodüksiyon için derleme yapar
-- `pnpm start` - Prodüksiyon sunucusunu başlatır
-- `pnpm lint` - Kod kalitesi kontrolü yapar
+- `pnpm dev` - Starts the development server
+- `pnpm build` - Builds for production
+- `pnpm start` - Starts the production server
+- `pnpm lint` - Runs code quality checks
 
-## 🎨 Özellikler
+## 🎨 Features
 
-- Modern ve responsive tasarım
-- 3D animasyonlar ve interaktif öğeler
-- Tip güvenli geliştirme ortamı
-- SEO optimizasyonu
-- Performans odaklı yapı
+- Modern and responsive design
+- 3D animations and interactive elements
+- Type-safe development environment
+- SEO optimization
+- Performance-focused architecture
 
-## 📝 Lisans
+## 📝 License
 
-Bu proje MIT lisansı altında lisanslanmıştır.
+This project is licensed under the MIT License.
