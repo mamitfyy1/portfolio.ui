@@ -21,7 +21,7 @@ export default function AboutMe() {
     return (
         <div id='aboutMe' className='aboutMe-container'>
             <div className='aboutMe-image'>
-                <Image src='/asset/machintosh.gif' alt='Machintosh' width={500} height={500} unoptimized/>
+                <Image src='/asset/Turbofan.png' alt='Turbofan' width={500} height={500} unoptimized/>
             </div>
 
             <div className='aboutMe-description-container'>
