@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import '@miktatmert/pages/test.css';
 
 interface IMamininDedigi {
   index: number;
