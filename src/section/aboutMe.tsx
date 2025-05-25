@@ -38,7 +38,7 @@ export default function AboutMe() {
                         <ul className='aboutMe-lists'>
                             <li>Solidworks</li>
                             <li>Autodesk Fusion 360</li>
-                            <li>Soon..</li>
+                            <li>Soon...</li>
                         </ul>
                     </TabContent>
 
