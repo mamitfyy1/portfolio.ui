@@ -42,11 +42,13 @@ export default function AboutMe() {
                         </ul>
                     </TabContent>
 
-                    <TabContent value='Software Skills' index={activeTab}>
+                    <TabContent value='Software and Office Skills' index={activeTab}>
                         <ul className='aboutMe-lists'>
                             <li>Matlab</li>
                             <li>Python</li>
+                            <li>Microsoft Office 2024</li>
                             <li>Soon...</li>
+
                         </ul>
                     </TabContent>
 
