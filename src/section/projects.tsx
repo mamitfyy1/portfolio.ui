@@ -2,25 +2,14 @@ import '@miktatmert/style/projects.css';
 import ProjectCard, {ProjectCardProps} from "@miktatmert/component/ProjectCard";
 
 const projects: ProjectCardProps[] = [
-    {
-        projectName: "O3Layer.com",
-        projectDescription: "",
-        projectImage: "bg-o3layer",
-        projectColor: "bg-black"
-    },
-    {
-        projectName: "OctopusBridge.xyz",
-        projectDescription: "",
-        projectImage: "bg-octopusbridge",
-        projectColor: "bg-[#28293d]"
-    },
-    {
-        projectName: "DeutschExpress.net",
-        projectDescription: "",
-        projectImage: "bg-deutschexpress",
-        projectColor: "bg-gradient-to-br from-black from-30% to-red-700"
-    }
-]
+  {
+    projectName: "Soon...",
+    projectDescription: "",
+    projectImage: "bg-aerospace", 
+    projectColor: "bg-black"
+  }
+];
+
 
 export default function Projects() {
     return (

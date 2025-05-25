@@ -23,7 +23,7 @@ export default function HeroSection() {
 
                         <span>
                             <Typewriter
-                                words={['Miktat Mert Cento', 'Full Stack Developer']}
+                                words={['Muhammet Ali Oymak', 'Aerospace Engineer']}
                                 loop={0}
                                 typeSpeed={100}
                                 cursor
@@ -32,8 +32,8 @@ export default function HeroSection() {
                     </h1>
 
                     <p className='heroSection-description'>
-                        I&apos;m a full stack developer with 4 years of experience in web development.
-                        I&apos;m passionate about creating beautiful and functional websites.
+                        I&apos;m an Aerospace Engineering Student. I&apos;m in my second year on my education.
+                        I&apos;m determined to implement beautiful engineering projects in the future.
                     </p>
                 </div>
             </div>

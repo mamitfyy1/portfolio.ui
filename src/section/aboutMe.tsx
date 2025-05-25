@@ -9,8 +9,8 @@ import TabButton from "@miktatmert/component/TabButton";
 import TabContent from "@miktatmert/component/TabContent";
 
 const tabs = [
-    {title: 'Front-end Skills'},
-    {title: 'Back-end Skills'},
+    {title: 'Drawing Skills'},
+    {title: 'Software Skills'},
     {title: 'Education'}
 ]
 type TabTitle = (typeof tabs[number]['title']);
@@ -34,29 +34,25 @@ export default function AboutMe() {
                 </div>
 
                 <div className='aboutMe-tab-contents'>
-                    <TabContent value='Front-end Skills' index={activeTab}>
+                    <TabContent value='Drawing Skills' index={activeTab}>
                         <ul className='aboutMe-lists'>
-                            <li>HTML, CSS</li>
-                            <li>TypeScript, JavaScript</li>
-                            <li>React, Vite.js, Next.js</li>
-                            <li>Vue.js, Angular.js (basic knowledge)</li>
-                            <li>React Context, Redux</li>
+                            <li>Solidworks</li>
+                            <li>Autodesk Fusion 360</li>
+                            <li>Soon...</li>
                         </ul>
                     </TabContent>
 
-                    <TabContent value='Back-end Skills' index={activeTab}>
+                    <TabContent value='Software Skills' index={activeTab}>
                         <ul className='aboutMe-lists'>
-                            <li>C#, TypeScript</li>
-                            <li>.Net Core, Node.js, Express.js</li>
-                            <li>SQL, MongoDB, Firebase</li>
-                            <li>Json Web Token</li>
-                            <li>Security Vulnerabilities</li>
+                            <li>Matlab</li>
+                            <li>Python</li>
+                            <li>Soon...</li>
                         </ul>
                     </TabContent>
 
                     <TabContent value='Education' index={activeTab}>
                         <ul className='aboutMe-lists'>
-                            <li>Computer Technologies - <a href='https://atauni.edu.tr' target='_blank' rel="noopener noreferrer" className='link'>Atatürk University</a></li>
+                                <li>Aerospace Engineering - <a href='https://havacilik.atu.edu.tr/#!/' target='_blank' rel="noopener noreferrer" className='link'>Adana Alparslan Türkeş Bilim ve Teknoloji Üniversitesi</a></li>
                         </ul>
                     </TabContent>
                 </div>
