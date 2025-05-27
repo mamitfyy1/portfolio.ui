@@ -10,7 +10,7 @@ import TabContent from "@miktatmert/component/TabContent";
 
 const tabs = [
     {title: 'Drawing Skills'},
-    {title: 'Software Skills'},
+    {title: 'Software and Office Skills'},
     {title: 'Education'}
 ]
 type TabTitle = (typeof tabs[number]['title']);
@@ -46,7 +46,7 @@ export default function AboutMe() {
                         <ul className='aboutMe-lists'>
                             <li>Matlab</li>
                             <li>Python</li>
-                            {/* <li>MS Office 2024</li> */}
+                            <li>MS Office 2024</li>
                             <li>Soon...</li>
                         </ul>
                     </TabContent>
