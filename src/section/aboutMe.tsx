@@ -46,7 +46,7 @@ export default function AboutMe() {
                         <ul className='aboutMe-lists'>
                             <li>Matlab</li>
                             <li>Python</li>
-                            <li>MS Office 2024</li>
+                            {/* <li>MS Office 2024</li> */}
                             <li>Soon...</li>
                         </ul>
                     </TabContent>
