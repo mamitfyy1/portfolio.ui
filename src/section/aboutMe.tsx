@@ -48,7 +48,6 @@ export default function AboutMe() {
                             <li>Python</li>
                             <li>MS Office 2024</li>
                             <li>Soon...</li>
-
                         </ul>
                     </TabContent>
 
