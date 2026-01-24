@@ -32,7 +32,7 @@ export default function HeroSection() {
                     </h1>
 
                     <p className='heroSection-description'>
-                        I&apos;m an Aerospace Engineering Student. I&apos;m in my second year on my education.
+                        I&apos;m an Aerospace Engineering Student. I&apos;m in my third year on my education.
                         I&apos;m determined to implement beautiful engineering projects in the future.
                     </p>
                 </div>
