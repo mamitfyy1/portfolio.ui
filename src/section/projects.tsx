@@ -3,7 +3,7 @@ import ProjectCard, {ProjectCardProps} from "@miktatmert/component/ProjectCard";
 
 const projects: ProjectCardProps[] = [
   {
-    projectName: "Soon...",
+    projectName: "VTOL Rocket System 3D Design",
     projectDescription: "",
     projectImage: "bg-aerospace", 
     projectColor: "bg-black"
