@@ -44,7 +44,8 @@ export default function AboutMe() {
 
                     <TabContent value='Software and Office Skills' index={activeTab}>
                         <ul className='aboutMe-lists'>
-                            <li>Matlab</li>
+                            <li>ANSYS - Structural Analysis</li>
+                            <li>ANSYS - CFD</li>
                             <li>Python</li>
                             <li>MS Office 2024</li>
                             <li>Soon...</li>
