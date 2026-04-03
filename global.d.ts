@@ -1,5 +1,5 @@
-// global.d.ts
+declare module '*.css';
+
 interface Window {
-    UnicornStudio: any;0
-    declare module '*.css';
+  UnicornStudio: any;
 }
