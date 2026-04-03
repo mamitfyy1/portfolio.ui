@@ -32,11 +32,13 @@ export default function VtolRocketPage() {
         <div className={styles.heroVisual}>
           <div className={styles.heroGlow} />
           <div className={styles.imageCard}>
-            <img
-              src="/asset/backgroundImages/text-bg.png"
-              alt="VTOL Rocket 3D Design"
-              className={styles.heroImage}
-            />
+           <Image
+  src="/asset/backgroundImages/text-bg.png"
+  alt="VTOL Rocket 3D Design"
+  width={1200}
+  height={800}
+  className={styles.heroImage}
+/>
           </div>
         </div>
       </section>
