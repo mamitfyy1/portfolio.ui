@@ -1,10 +1,8 @@
-import React from "react";
-
-import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 
-import "../style/globals.css";
-import "../style/projects.css";
+import { Inter } from "next/font/google";
+
+import "@miktatmmert/style/globals.css";
 
 const inter = Inter({subsets: ['latin'], weight: ['300', '400', '500', '700']});
 
