@@ -32,6 +32,10 @@
   height: 14rem;
   perspective: 1000px;
   display: block;
+  background: transparent;
+  border: none;
+  padding: 0;
+  text-align: left;
 }
 
 .card {
