@@ -1,10 +1,10 @@
-import '@miktatmert/style/projects.css';
+import "../style/projects.css";
 import ProjectCard, {ProjectCardProps} from "@miktatmert/component/ProjectCard";
 
 const projects: ProjectCardProps[] = [
   {
     projectName: "VTOL Rocket System 3D Design",
-    projectDescription: "2026 Graviton FoF Dikey İnişli Roket Takımında mekanik tasarımcı olarak yer aldım.",
+    projectDescription: "I was a mechanical designer on the 2026 Graviton FoF Vertical Landing Rocket Team.",
     projectImage: "aerospace-bg.png", 
     projectColor: "bg-black"
   }

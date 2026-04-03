@@ -1,55 +1,133 @@
 .projects-container {
-    @apply md:min-h-screen px-4 pb-12 md:pb-0;
+  @apply md:min-h-screen px-4 pb-12 md:pb-0;
 }
 
 .projects-general-title {
-    @apply text-white text-[24px] md:text-[36px] font-bold;
+  @apply text-white text-[24px] md:text-[36px] font-bold;
 }
 
 .projects-title {
-    @apply text-white;
+  @apply text-white;
+  margin-bottom: 10px;
 }
 
 .projects-description {
-    @apply text-white;
+  @apply text-white;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 .projects-image {
-    @apply w-full h-full;
+  @apply w-full h-full;
 }
 
 .projects-cards {
-    @apply grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 3xl:grid-cols-5 4xl:grid-cols-6;
+  @apply grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 3xl:grid-cols-5 4xl:grid-cols-6;
+  align-items: start;
 }
 
 .project-card {
-    @apply h-56 rounded-lg bg-cover bg-center;
+  position: relative;
+  width: 100%;
+  height: 14rem;
+  perspective: 1000px;
+  display: block;
 }
 
 .card {
-    @apply perspective-1000;
+  position: relative;
+  width: 100%;
+  height: 14rem;
+  perspective: 1000px;
+  display: block;
 }
 
 .card-inner {
-    @apply w-full h-full relative transition-transform duration-[999ms];
-    transform-style: preserve-3d;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+  will-change: transform;
 }
 
-.card:hover .card-inner {
-    transform: rotateY(180deg);
+.project-card:hover .card-inner {
+  transform: rotateY(180deg);
 }
 
 .card-front,
 .card-back {
-    @apply absolute w-full h-full backface-hidden flex flex-col;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform-style: preserve-3d;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid rgb(71 85 105 / 1);
+  box-sizing: border-box;
 }
 
 .card-front {
-    @apply text-white flex items-center border-2 border-secondary rounded-[10px] justify-center text-[24px] w-full h-full;
-    transform: rotateY(0deg);
+  @apply text-white items-center justify-center text-[24px];
+  transform: rotateY(0deg);
+  z-index: 2;
 }
 
 .card-back {
-    @apply text-white flex items-center border-2 border-secondary rounded-[10px] justify-center text-[24px] w-full h-full bg-cover bg-center;
-    transform: rotateY(180deg);
+  @apply text-white items-center justify-center text-[24px] bg-cover bg-center;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+.project-card-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.project-card-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/asset/backgroundImages/text-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.35;
+  z-index: 0;
+}
+
+.project-card-overlay {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.projects-title,
+.projects-description {
+  position: relative;
+  z-index: 1;
+}
+.card-back-text {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
 }
