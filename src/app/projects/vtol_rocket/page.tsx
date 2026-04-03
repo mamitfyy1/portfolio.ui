@@ -111,7 +111,7 @@ export default function VtolRocketPage() {
         <div className={styles.galleryGrid}>
           <div className={styles.galleryCard}>
             <Image
-  src="/asset/backgroundImages/text-bg.png"
+  src="/asset/backgroundImages/text-bg1.png"
   alt="VTOL Rocket 3D Design"
   width={1200}
   height={800}
@@ -121,7 +121,7 @@ export default function VtolRocketPage() {
 
           <div className={styles.galleryCard}>
            <Image
-  src="/asset/backgroundImages/text-bg.png"
+  src="/asset/backgroundImages/text-bg2.png"
   alt="VTOL Rocket 3D Design"
   width={1200}
   height={800}
