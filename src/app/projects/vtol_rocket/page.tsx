@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import Image from "next/image";
 
 export default function VtolRocketPage() {
   return (
@@ -106,19 +107,23 @@ export default function VtolRocketPage() {
 
         <div className={styles.galleryGrid}>
           <div className={styles.galleryCard}>
-            <img
-              src="/asset/backgroundImages/text-bg.png"
-              alt="VTOL Rocket front view"
-              className={styles.galleryImage}
-            />
+            <Image
+  src="/asset/backgroundImages/text-bg.png"
+  alt="VTOL Rocket 3D Design"
+  width={1200}
+  height={800}
+  className={styles.heroImage}
+/>
           </div>
 
           <div className={styles.galleryCard}>
-            <img
-              src="/asset/backgroundImages/text-bg.png"
-              alt="VTOL Rocket detail view"
-              className={styles.galleryImage}
-            />
+           <Image
+  src="/asset/backgroundImages/text-bg.png"
+  alt="VTOL Rocket 3D Design"
+  width={1200}
+  height={800}
+  className={styles.heroImage}
+/>
           </div>
         </div>
       </section>
