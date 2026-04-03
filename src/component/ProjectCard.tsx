@@ -19,8 +19,8 @@ export default function ProjectCard({projectName, projectDescription, projectIma
         <div className="project-card card cursor-pointer" onClick={handleClick}>
             <div className="card-inner">
                 <div className={cl('card-front', projectColor)}>
-                    <h1 className='projects-title'>{projectName}</h1>
-                    <p className='projects-description'>{projectDescription}</p>
+                    <h1 className='projects-title' style={{textAlign: 'center'}}>{projectName}</h1>
+                    <p className='projects-description' style={{fontSize: '12px', textAlign: 'center'}}>{projectDescription}</p>
                 </div>
                 <div className={cl('card-back', projectImage)} />
             </div>

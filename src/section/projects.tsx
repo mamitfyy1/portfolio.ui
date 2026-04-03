@@ -4,8 +4,8 @@ import ProjectCard, {ProjectCardProps} from "@miktatmert/component/ProjectCard";
 const projects: ProjectCardProps[] = [
   {
     projectName: "VTOL Rocket System 3D Design",
-    projectDescription: "",
-    projectImage: "bg-aerospace", 
+    projectDescription: "2026 Graviton FoF Dikey İnişli Roket Takımında mekanik tasarımcı olarak yer aldım.",
+    projectImage: "aerospace-bg.png", 
     projectColor: "bg-black"
   }
 ];
