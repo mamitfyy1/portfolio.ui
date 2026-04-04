@@ -37,7 +37,7 @@ export default function ProjectCard({
         </div>
 
         <div className={cl('card-back', projectImage)}>
-          <p className="card-back-text">Proje detayları için tıkla.</p>
+          <p className="card-back-text">Click for project details.</p>
         </div>
       </div>
     </button>
